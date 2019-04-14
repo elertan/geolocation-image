@@ -1,0 +1,24 @@
+{
+  "name": "geolocation-image",
+  "version": "1.0.0",
+  "description": "Shows an image based on the users geolocation (ip address)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elertan/geolocation-image.git"
+  },
+  "author": "Elertan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elertan/geolocation-image/issues"
+  },
+  "homepage": "https://github.com/elertan/geolocation-image#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "jimp": "^0.6.1"
+  }
+}
