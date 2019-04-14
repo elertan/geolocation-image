@@ -2,7 +2,7 @@ const jimp = require("jimp");
 const axios = require("axios");
 const express = require('express');
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 3000;
 const fs = require("fs");
 
 jimp.read(__dirname + "/image.jpg").then((image) => {
