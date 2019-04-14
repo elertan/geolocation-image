@@ -4,6 +4,7 @@
   "description": "Shows an image based on the users geolocation (ip address)",
   "main": "index.js",
   "scripts": {
+	  "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
